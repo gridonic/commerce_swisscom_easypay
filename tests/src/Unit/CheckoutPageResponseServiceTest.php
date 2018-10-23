@@ -18,6 +18,11 @@ use Gridonic\EasyPay\REST\ErrorMessage;
 use Gridonic\EasyPay\REST\RESTApiService;
 use Symfony\Component\HttpFoundation\Request;
 
+/**
+ * Tests for the CheckoutPageResponseService class.
+ *
+ * @group commerce_swisscom_easypay
+ */
 class CheckoutPageResponseServiceTest extends UnitTestCase {
 
   public function testOnReturn_RedirectSuccessful_CommercePaymentGetsCreated() {

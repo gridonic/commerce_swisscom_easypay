@@ -14,6 +14,11 @@ use Drupal\Core\Language\LanguageManagerInterface;
 use Drupal\Tests\UnitTestCase;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 
+/**
+ * Tests for the CheckoutPageService class.
+ *
+ * @group commerce_swisscom_easypay
+ */
 class CheckoutPageServiceTest extends UnitTestCase {
 
   public function testGetCheckoutPageUrl_PluginConfigHasTestOrLiveMode_ReturnsCorrectBaseUrl() {
